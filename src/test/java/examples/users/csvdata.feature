@@ -1,5 +1,9 @@
 Feature: CSV data
 
-	Scenario:
-	* def abc = read('Data.csv')
-	And print abc
+	Scenario Outline:
+	Given request <csvfile>
+	And print <csvfile>
+
+	Examples:
+	|csvfile|
+	|read('Data.csv')|
