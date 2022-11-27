@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("778ac757-4da4-47aa-920c-93a1701b8f21",{name:"RM"});
+    posthog.capture("report_feature",{karate_version:"1.3.0",karate_meta:null});
+  }
+});
+</script>
+
+    <title>src.test.java.examples.users.csvdata</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-11-27 01:05:49 AM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span></span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/examples/users/csvdata.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">CSV data</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name"></span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>158</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def abc = read(&#39;Data.csv&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">146</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print abc</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">01:05:49.235 [print] [
+  {
+    &quot;abcinfo.consRefId1&quot;: &quot;XYZ1234ABC&quot;,
+    &quot;abcinfo.consRefId2&quot;: &quot;ABCD&quot;,
+    &quot;abcinfo.consRefId3&quot;: &quot;Y&quot;,
+    &quot;abcinfo.preference.preferenceReason&quot;: &quot;ABCD&quot;,
+    &quot;abcinfo.preference.preferenceName&quot;: &quot;ABC&quot;,
+    &quot;abcinfo.preference.document&quot;: &quot;true&quot;,
+    &quot;abcinfo.Requested.0&quot;: &quot;ABC&quot;,
+    &quot;abcinfo.Requested.1&quot;: &quot;XYZ&quot;,
+    &quot;abcinfo.Requested.2&quot;: &quot;PQR&quot;,
+    &quot;abcinfo.indended.category&quot;: &quot;ABC&quot;,
+    &quot;abcinfo.indended.subCategory&quot;: &quot;AGJGH&quot;,
+    &quot;partyInformation.0.SerialNumber&quot;: &quot;00000&quot;,
+    &quot;partyInformation.0.partyRecord&quot;: &quot;99999&quot;,
+    &quot;partyInformation.0.bDate&quot;: &quot;1900-09-08&quot;,
+    &quot;partyInformation.0.primaryIndicator&quot;: &quot;true&quot;,
+    &quot;partyInformation.0.personName.fName&quot;: &quot;OLOL&quot;,
+    &quot;partyInformation.0.personName.mName&quot;: &quot;OL&quot;,
+    &quot;partyInformation.0.personName.lName&quot;: &quot;OL&quot;,
+    &quot;partyInformation.0.personName.suffix&quot;: &quot;&quot;,
+    &quot;partyInformation.0.address.sAddressNumber&quot;: &quot;00&quot;,
+    &quot;partyInformation.0.address.sName&quot;: &quot;ABCD&quot;,
+    &quot;partyInformation.0.address.streetSuffixName&quot;: &quot;ABCD&quot;,
+    &quot;partyInformation.0.address.streetPostCode&quot;: &quot;FGF&quot;,
+    &quot;partyInformation.0.address.unitNumber&quot;: &quot;00&quot;,
+    &quot;partyInformation.0.address.City&quot;: &quot;DFGDF&quot;,
+    &quot;partyInformation.0.address.State&quot;: &quot;DFGFDG&quot;,
+    &quot;partyInformation.0.address.PostCode&quot;: &quot;4545454&quot;,
+    &quot;partyInformation.0.address.postOfficeBoxNumber&quot;: &quot;66554&quot;,
+    &quot;partyInformation.0.address.ruralRoNumber&quot;: &quot;5655&quot;,
+    &quot;partyInformation.0.address.postalAddressTypeCode&quot;: &quot;4543534&quot;,
+    &quot;partyInformation.0.pNumber&quot;: &quot;44534&quot;,
+    &quot;partyInformation.0.workNumber&quot;: &quot;4545&quot;,
+    &quot;reuseReqId&quot;: &quot;FGFDGD&quot;
+  },
+  {
+    &quot;abcinfo.consRefId1&quot;: &quot;XYZ1234ABC&quot;,
+    &quot;abcinfo.consRefId2&quot;: &quot;KLIF&quot;,
+    &quot;abcinfo.consRefId3&quot;: &quot;Y&quot;,
+    &quot;abcinfo.preference.preferenceReason&quot;: &quot;FDF&quot;,
+    &quot;abcinfo.preference.preferenceName&quot;: &quot;DFD&quot;,
+    &quot;abcinfo.preference.document&quot;: &quot;true&quot;,
+    &quot;abcinfo.Requested.0&quot;: &quot;DF&quot;,
+    &quot;abcinfo.Requested.1&quot;: &quot;XYZ&quot;,
+    &quot;abcinfo.Requested.2&quot;: &quot;PQR&quot;,
+    &quot;abcinfo.indended.category&quot;: &quot;ABC&quot;,
+    &quot;abcinfo.indended.subCategory&quot;: &quot;DFGD&quot;,
+    &quot;partyInformation.0.SerialNumber&quot;: &quot;00000&quot;,
+    &quot;partyInformation.0.partyRecord&quot;: &quot;99999&quot;,
+    &quot;partyInformation.0.bDate&quot;: &quot;1980-09-08&quot;,
+    &quot;partyInformation.0.primaryIndicator&quot;: &quot;false&quot;,
+    &quot;partyInformation.0.personName.fName&quot;: &quot;POPO&quot;,
+    &quot;partyInformation.0.personName.mName&quot;: &quot;PO&quot;,
+    &quot;partyInformation.0.personName.lName&quot;: &quot;PO&quot;,
+    &quot;partyInformation.0.personName.suffix&quot;: &quot;&quot;,
+    &quot;partyInformation.0.address.sAddressNumber&quot;: &quot;00&quot;,
+    &quot;partyInformation.0.address.sName&quot;: &quot;DFDFD&quot;,
+    &quot;partyInformation.0.address.streetSuffixName&quot;: &quot;EREWR&quot;,
+    &quot;partyInformation.0.address.streetPostCode&quot;: &quot;FGFDG&quot;,
+    &quot;partyInformation.0.address.unitNumber&quot;: &quot;00&quot;,
+    &quot;partyInformation.0.address.City&quot;: &quot;DFGDF&quot;,
+    &quot;partyInformation.0.address.State&quot;: &quot;DFGFDG&quot;,
+    &quot;partyInformation.0.address.PostCode&quot;: &quot;4545454&quot;,
+    &quot;partyInformation.0.address.postOfficeBoxNumber&quot;: &quot;66554&quot;,
+    &quot;partyInformation.0.address.ruralRoNumber&quot;: &quot;5655&quot;,
+    &quot;partyInformation.0.address.postalAddressTypeCode&quot;: &quot;4543534&quot;,
+    &quot;partyInformation.0.pNumber&quot;: &quot;44534&quot;,
+    &quot;partyInformation.0.workNumber&quot;: &quot;4545&quot;,
+    &quot;reuseReqId&quot;: &quot;FGFDGD&quot;
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
