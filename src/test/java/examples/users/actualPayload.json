@@ -1,0 +1,51 @@
+{
+  "abcinfo": {
+    "consRefId1": "XYZ1234ABC",
+    "consRefId2": "ABCD",
+    "consRefId3": "Y",
+    "preference": {
+      "preferenceReason": "ABCD",
+      "preferenceName": "ABC",
+      "document": "true"
+    },
+    "Requested": [
+      "ABC",
+      "XYZ",
+      "PQR"
+    ],
+    "indended": {
+      "category": "ABC",
+      "subCategory": "AGJGH"
+    }
+  },
+  "partyInformation": [
+    {
+      "SerialNumber": "00000",
+      "partyRecord": "99999",
+      "bDate": "1900-09-08",
+      "primaryIndicator": true,
+      "personName": {
+        "fName": "OLOL",
+        "mName": "OL",
+        "lName": "OL",
+        "suffix": null
+      },
+      "address": {
+        "sAddressNumber": "00",
+        "sName": "ABCD",
+        "streetSuffixName": "ABCD",
+        "streetPostCode": "FGF",
+        "unitNumber": "00",
+        "City": "DFGDF",
+        "State": "DFGFDG",
+        "PostCode": "4545454",
+        "postOfficeBoxNumber": "66554",
+        "ruralRoNumber": "5655",
+        "postalAddressTypeCode": "4543534"
+      },
+      "pNumber": "44534",
+      "workNumber": "4545"
+    }
+  ],
+  "reuseReqId": "FGFDGD"
+}
